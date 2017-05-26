@@ -12,7 +12,7 @@ font-family: 'Cormorant Upright', serif;*/
 button{
   border-style: none;
 }
-body, html, h1, ul {
+body, html, h1, ul, h3 {
   margin: 0;
   padding: 0;
 }
@@ -55,7 +55,7 @@ ul{
 .row img + img{
   height: 200px;
   position: absolute;
-  left: 77%;
+  left: 72%;
   top:5%;
   opacity: .7;
 
@@ -120,7 +120,7 @@ ul{
   top: 15%;
   left: 530px;
   padding: 2%;
-  padding-right: 5%;
+  padding-right: 4%;
   clear: right;
 }
 
@@ -207,7 +207,29 @@ ul{
 #table img{
   padding-left: 20px;
 }
-/*================FOOTER (ROW 5)=================*/
+#table button{
+  left: 350px;
+}
+/*================galery (ROW 5)=================*/
+.galery {
+  height: 280px;
+  background-color: #fdff9c;
+  margin-top: 20px;
+}
+.galery p{
+  display: block;
+  background-color: white;
+  margin: 0;
+  color: #ff3f80;
+  font-weight: normal;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.galery img{
+  height: 200px;
+  margin: 20px;
+}
+/*================FOOTER (ROW 6)=================*/
 footer{
   text-align: right;
   height: 30px;
@@ -216,6 +238,14 @@ footer{
 }
 footer p {
   margin: 0;
-  padding: 0 20px;
-  padding-top: 20px;
+  padding: 15px 5%;
+
+}
+
+
+@media (max-width:828px){
+  .row p, .buy1 p{
+    margin-top:15px;
+    padding-right: 0;
+  }
 }
