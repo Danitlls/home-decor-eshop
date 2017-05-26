@@ -3,3 +3,148 @@ font-family: 'Sue Ellen Francisco', cursive;
 font-family: 'Sofia', cursive;
 font-family: 'Josefin Slab', serif;
 font-family: 'Cormorant Upright', serif;*/
+
+*{
+  box-sizing: border-box;
+  font-family: 'Cormorant Upright', serif;
+
+}
+button{
+  border-style: none;
+}
+body, html, h1, ul {
+  margin: 0;
+  padding: 0;
+}
+ul{
+  list-style: none;
+}
+
+/*==================HEADER=================*/
+.header{
+  height: 60px;
+  background-color: #ff3f80;
+  overflow: auto;
+}
+.header h1{
+  font-family: 'Sofia', cursive;
+  float:left;
+  color: white;
+  padding: 5px;
+}
+
+.header ul{
+  float: right;
+}
+.header ul li{
+  float: left;
+  padding: 10px;
+  color: #ffdbe7;
+  font-size: 15px;
+  font-weight: bold;
+}
+/*==================ROW 1=================*/
+.row{
+  background-color: #e0e0e0;
+  position: relative;
+  top:0px;
+  left:0px;
+  overflow: visible;
+  padding-bottom: 20px;
+}
+.row img + img{
+  height: 200px;
+  position: absolute;
+  left: 77%;
+  top:20%;
+
+}
+.row h2{
+  z-index: 10;
+  font-family: 'Satisfy', cursive; serif;
+  /*color: #d9fbb1;*/
+  color: #fdff9c;
+  font-size: 60px;
+  position: absolute;
+  left: 50%;
+  top:100px;
+  text-shadow: 2px 2px 5px lightgrey;
+}
+.row p{
+  position:absolute;
+  left: 50%;
+  top: 260px;
+  background-color: rgba(224, 224, 224, 0.6);
+  padding: 20px 30px 2px 0;
+
+}
+.row button {
+  position: absolute;
+  left: 50%;
+  top: 250px;
+  width: 265px;
+  color:white;
+  background-color: #ff3f80;
+  padding: 5px;
+}
+/*==================BUY 1 (ROW 2)=================*/
+.buy1{
+  background-color: pink;
+  position: relative;
+  top:0px;
+  left:0px;
+  overflow:auto;
+  padding-bottom: 20px;
+}
+.buy1 img{
+  float: left;
+  top:0;
+}
+.buy1 ul{
+  float:left;
+  padding: 10px;
+  clear: right;
+}
+.buy1 ul li{
+  padding-top: 5px;
+  padding-left: 5px;
+}
+.buy1 ul li:first-child{
+  padding-top: 20px;
+}
+.buy1 p, .add {
+  position: absolute;
+  left: 530px;
+  padding: 15px;
+  padding-right: 30px;
+  clear: right;
+}
+
+.add {
+  position: absolute;
+  left: 545px;
+  padding: 15px;
+  top: 82%;
+  background-color:  #fdff9c;
+  font-weight: bold;
+  color: #826767;
+  font-size: 1.2em;
+  font-family: 'Sofia', cursive;
+}
+
+.buy1 p + img {
+  width: 100px;
+  height: 120px;
+  /*float: left;*/
+  position: absolute;
+  top: 38%;
+  left: 410px;
+}
+.buy1 img + img {
+  width: 100px;
+  height: 120px;
+  /*float: left;*/
+  position: absolute;
+  top: 68%;
+  left: 410px;
+}
