@@ -16,7 +16,6 @@ button{
 button:hover{
   /*border-radius: 20px;*/
   box-shadow: 1px 2px 1px 5px lightgrey;
-
 }
 body, html, h1, ul, h3 {
   margin: 0;
@@ -41,7 +40,6 @@ a{
   color: white;
   padding: 5px;
 }
-
 .header ul{
   float: right;
 }
@@ -67,12 +65,10 @@ a{
   left: 72%;
   top:5%;
   opacity: .7;
-
 }
 .row h2{
   z-index: 10;
   font-family: 'Satisfy', cursive; serif;
-  /*color: #d9fbb1;*/
   color: #fdff9c;
   font-size: 60px;
   position: absolute;
@@ -86,7 +82,6 @@ a{
   top: 260px;
   background-color: rgba(224, 224, 224, 0.7);
   padding: 20px 30px 2px 0;
-
 }
 .row button {
   position: absolute;
@@ -132,7 +127,6 @@ a{
   padding-right: 4%;
   clear: right;
 }
-
 .add {
   position: absolute;
   left: 545px;
@@ -144,7 +138,6 @@ a{
   font-size: 1.2em;
   font-family: 'Sofia', cursive;
 }
-
 .buy1 p + img {
   width: 100px;
   height: 120px;
@@ -171,7 +164,6 @@ a{
 .buy2 img{
   width: 391px;
   float: right;
-  /*margin-right: 10%;*/
   background-color: pink;
   padding-right: 60px;
   margin-left: -20px;
@@ -179,7 +171,6 @@ a{
 .buy2 ul{
   float:right;
   padding: 10px;
-
 }
 .buy2 ul li{
   padding-top: 5px;
@@ -268,7 +259,6 @@ tr td:first-of-type{
   color: white;
 }
 
-
 /*================galery (ROW 6)=================*/
 .galery {
   margin-top: 20px;
@@ -294,11 +284,8 @@ tr td:first-of-type{
   padding: 5px 3.5%;
   margin-bottom: 20px;
 }
-
 .galery img{
-  /*float:left;*/
   height: 100%;
-
 
 }
 /*================FOOTER (ROW 6)=================*/
@@ -316,12 +303,10 @@ footer p {
   padding: 15px 5%;
 }
 
-
 @media (max-width:800px){
   .buy1 p, buy2 p{
     margin: 1%;
     padding: 1px;
     top: 10px;
   }
-
 }
