@@ -182,17 +182,37 @@ a{
 }
 .buy2 p{
   position: absolute;
-  top: 18%;
-  width: 50%;
-  left: 20px;
-  padding: 2%;
+  top: 15%;
+  width: 38%;
+  /*right: 530px;*/
+  padding: 5%;
   padding-right: 30px;
   clear: right;
   text-align: center;
 }
+#pillows p + img {
+  width: 100px;
+  height: 120px;
+  position: absolute;
+  top: 42%;
+  right: 413px;
+  padding-right: 0px;
+  margin-left: 10px;
+}
+#pillows img + img {
+  width: 100px;
+  height: 120px;
+  position: absolute;
+  top: 72%;
+  right: 413px;
+  padding-right: 0px;
+  margin-left: 10px;
+}
 .buy2 .add {
-  left:55%;
-  top: 82%;
+  position: absolute;
+  right: 550px;
+  left: auto;
+  top: 84%;
 }
 
 /*==================BUY 3 (ROW 4)=================*/
@@ -202,16 +222,27 @@ a{
   overflow: auto;
   padding-bottom: 20px;
 }
+#table ul{
+  margin-left: 5px;
+}
 #table img{
   padding-left: 20px;
 }
 #table p{
   left: 400px;
-  padding-left: 55px;
-  padding-right: 35px;
+  padding: 3% 10%;
 }
+#table p + img {
+  width: 100px;
+  height: 120px;
+  position: absolute;
+  top: 48%;
+  left: 300px;
+  margin-left: 10px;
+}
+
 #table button{
-  left: 350px;
+  left: 330px;
 }
 
 /*================Order Table(ROW 5)=================*/
@@ -303,10 +334,11 @@ footer p {
   padding: 15px 5%;
 }
 
-@media (max-width:800px){
+/*Text statrs to overlap with photos at this point*/
+@media (max-width:810px){
   .buy1 p, buy2 p{
     margin: 1%;
-    padding: 1px;
-    top: 10px;
+    padding: 1px 20%;
+    top: 5px;
   }
 }
