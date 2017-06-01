@@ -11,11 +11,15 @@ font-family: 'Cormorant Upright', serif;*/
 }
 button{
   border-style: none;
-  border-radius: 5px
+  border-radius: 5px;
+  padding: 15px;
+}
+button span{
+  padding: 30px 20px;
 }
 button:hover{
-  /*border-radius: 20px;*/
   box-shadow: 1px 2px 1px 5px lightgrey;
+  font-size: 1.1em;
 }
 body, html, h1, ul, h3 {
   margin: 0;
@@ -26,6 +30,7 @@ ul{
 }
 a{
   color: pink;
+  padding: 30px 15px;
 }
 
 /*==================HEADER=================*/
@@ -45,10 +50,14 @@ a{
 }
 .header ul li{
   float: left;
-  padding: 10px;
+  padding: 30px 15px;
   color: #ffdbe7;
   font-size: 15px;
   font-weight: bold;
+}
+.header ul li a:hover{
+  background-color: #ec407a;
+  color:white;
 }
 /*==================ROW 1=================*/
 .row{
@@ -79,9 +88,9 @@ a{
 .row p{
   position:absolute;
   left: 50%;
-  top: 260px;
+  top: 280px;
   background-color: rgba(224, 224, 224, 0.7);
-  padding: 20px 30px 2px 0;
+  padding: 10px 30px 2px 0;
 }
 .row button {
   position: absolute;
@@ -126,6 +135,10 @@ a{
   padding: 2%;
   padding-right: 4%;
   clear: right;
+}
+.buy1 p::first-letter, .buy2 p::first-letter{
+  background-color: #fdff9c;
+  font-size: 2em;
 }
 .add {
   position: absolute;
@@ -311,12 +324,12 @@ tr td:first-of-type{
 }
 .galery span {
   float: left;
-  height: 250px;
-  padding: 5px 3.5%;
+  width: 20%;
+  padding: 5px 2.5%;
   margin-bottom: 20px;
 }
 .galery img{
-  height: 100%;
+  width: 100%;
 
 }
 /*================FOOTER (ROW 6)=================*/
@@ -326,12 +339,15 @@ footer{
   clear: both;
   text-align: center;
   height: 30px;
-  color: #ff3f80;;
+  color: #ff3f80;
 
 }
 footer p {
   margin: 0;
   padding: 15px 5%;
+}
+footer p::after{
+  content: " 2017";
 }
 
 /*Text statrs to overlap with photos at this point*/
